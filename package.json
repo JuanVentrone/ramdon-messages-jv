@@ -1,0 +1,23 @@
+{
+  "name": "random-messages-jv",
+  "version": "1.0.0",
+  "description": "Whenever I start a new project, I don't know what to write for the first commit. After doing a “git init” there is technically nothing there...",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Juan Vicente Ventrone I. <j.ventrone78@outlook.es>",
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "link": "^0.1.5"
+  }
+}
